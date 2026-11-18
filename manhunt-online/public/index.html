@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0d1315">
+    <meta name="description" content="Host a private, real-life Manhunt game with friends over the internet, with persistent game sessions.">
+    <title>MANHUNT — The real-world game</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/field-map.js"></script>
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="logo-lockup" aria-label="Manhunt">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <div class="brand-stack"><strong>MANHUNT<span class="brand-period">.</span></strong><small>REAL-WORLD GAME ENGINE</small></div>
+        </div>
+        <div class="header-status"><span class="status-indicator"></span> ONLINE MULTIPLAYER <span class="header-version">/ V2.0</span></div>
+      </header>
+      <div id="connection-banner" class="connection-banner" role="status" aria-live="polite" hidden></div>
+      <main id="app" aria-live="off"></main>
+      <footer class="site-footer"><span>MANHUNT / BUILT FOR YOUR CREW</span><span>PRIVATE BY DESIGN · PLAY SAFE · STAY IN PUBLIC, PERMITTED AREAS</span></footer>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
